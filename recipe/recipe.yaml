@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-documentai
-  version: 3.7.0
+  version: "3.8.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_documentai-${{ version }}.tar.gz
-  sha256: be4a912acfdbeb1f03d48d8bb869ad85e6bc4e38b57a88d9a894e8950f5883bf
+  sha256: ec4fc704cfd5c6cbef687557371306c12a216b8931342026d5c891dddd61894a
 
 build:
   number: 0
